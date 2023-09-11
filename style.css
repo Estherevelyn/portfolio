@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 80vh;    */
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Xp-light;
+}
+
+main {
+    height: 100%;
+}
+
+#barramenu {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   background-color: #245edb;
+   padding: 2px;
+   width: 2000px;
+   border-top:  5px solid  #2869f5;
+
+}
+
+#menu {
+    display: flex;
+    bottom: 0;
+    left: 0;
+    color: aliceblue;
+    background-color: #258b26;
+    padding: 8px;
+    border-radius: 0px 5px 0px 0px;
+    width:60px;
+    font-family: Roboto-italic;
+}
+
+#logoXP {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    position: fixed;
+    padding-left: 30%;
+}
+
+#textoXp{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    margin-top: 0;
+    font-family: Teko-Regular;
+    font-size: 70px;
+    padding-right: 7%;  
+    position: fixed; 
+}
+
+#titulo{
+    text-align: center;
+    font-family: Utra-regular;
+    font-size: 18vh;
+    color: #1450A3;
+    text-shadow: 7px 7px #279EFF;
+    top: 20px;
+    bottom: 50px;
+}
+
+#XP {
+    color: #FD8D14;
+    text-shadow: 5px 5px #FFD89C;
+    font-size: 12vh;
+}
+
+.icones {
+    font-family: Roboto-bold;
+    color: black;
+  
+}
